@@ -49,7 +49,7 @@
 ## 📂 项目结构
 
 ```
-千人千卷/
+千人千卷.zip/
 │
 ├── question/ # 出题系统 (PHP)
 │ ├── index.php
@@ -68,9 +68,7 @@
 │ ├── save_feedback.php
 │ └── printAnswer.py
 │
-├── docs/ # 文档与截图
-│ ├── report.pdf # 研究论文
-│ └── img/ # 系统截图
+├── teaching_assistant.sql/ # 数据库信息
 │
 └── README.md
 ```
@@ -91,11 +89,12 @@
 
 ## 🚀 本地运行说明
 
-1. 安装 [phpStudy](https://www.xp.cn/)（用于运行 PHP + MySQL）
-2. 配置数据库（参考 `/question/config.php` 和 `/correcting/config.php`）
-3. 打开 `phpStudy`，运行 `/question` 与 `/correcting`
-4. 使用 VSCode 运行 `/textpaper/server.py`
-5. 在浏览器中访问 `http://localhost/...` 即可使用
+1. 请下载 zip 后在本地解压，包含 question/ textpaper/ correcting 三个模块。
+2. 安装 [phpStudy](https://www.xp.cn/)（用于运行 PHP + MySQL）
+3. 配置数据库（参考 `/question/config.php` 和 `/correcting/config.php`）
+4. 打开 `phpStudy`，运行 `/question` 与 `/correcting`
+5. 使用 VSCode 运行 `/textpaper/server.py`
+6. 在浏览器中访问 `http://localhost/...` 即可使用
 
 ---
 
